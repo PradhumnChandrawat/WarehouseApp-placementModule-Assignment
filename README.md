@@ -1,6 +1,6 @@
 
 
-### Hosted Link : https://warehouse-app-placement-module-assignment.vercel.app/
+## Hosted Link : https://warehouse-app-placement-module-assignment.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
