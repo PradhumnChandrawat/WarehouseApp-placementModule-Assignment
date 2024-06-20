@@ -1,0 +1,54 @@
+/* /DetailsPage.css */
+.details-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-form label {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.details-form input[type="text"],
+.details-form input[type="number"],
+.details-form input[type="checkbox"] {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.details-form input[type="checkbox"] {
+  width: auto;
+}
+
+.details-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.details-form button:hover {
+  background-color: #45a049;
+}
+
+.details-form h1 {
+  text-align: center;
+  color: #333;
+}

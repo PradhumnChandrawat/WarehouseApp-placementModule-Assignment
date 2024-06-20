@@ -1,0 +1,30 @@
+.warehouse-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: #333;
+  text-decoration: none;
+}
+
+.warehouse-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.warehouse-item h3 {
+  margin-top: 0;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.warehouse-item p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
